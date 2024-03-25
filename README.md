@@ -14,4 +14,4 @@ Any real world measurements like location, time, coefficient of friction, weight
 
 # Root Cause Analysis bot
 The key to the task planner is actually the Root Cause Analysis bot. This bot's goal will be to identify what are the effectors of a given action. When a state changes this bot will evalute all known effectors with a goal of determining what are the primary effectors and to what degree. An object moved via an external force. What was the force?  Are there more than 1 cause of the action? Location proximity and time series will be key tools of this bot. Finding a root cause is sort of like acting as a detective. All  details matter and no assumptions to be made until the data is collected. Every action or cause will have some clues. These need to be observed directly when possible or indirectly if limited. Like a good scientist a theory will be formed and tested. Off line testing for most features and then real world testing when a novel feature is expected. 
-
+The difficulty will be to focus on individual features and thereby limit the dimensionality.
